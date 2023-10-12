@@ -20,6 +20,7 @@ public class StreamCreationExample2 {
 		// creating part of a part of an array
 		Stream<String> streamOfPart = Arrays.stream(arr, 1, 3);
 		streamOfPart.forEach(System.out::println);
+		System.out.println("----------------------------------------------------------");
 
 	}
 
