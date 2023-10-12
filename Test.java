@@ -64,6 +64,8 @@ employeemobile();
 		
 		for (Long m :  emobile) {
 			System.out.println(m);
+			System.out.println("---------------------------------");
+
 	}
 	
 }
